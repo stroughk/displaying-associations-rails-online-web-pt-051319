@@ -9,9 +9,9 @@ RSpec.describe Post, type: :model do
     expect(@post.description).to eq("My post desc")
   end
 
-  it "has a category" do
-    expect(@post.category.name).to eq("My Category")
-  end
+#  it "has a category" do
+#    expect(@post.category.name).to eq("My Category")
+#  end
 
   it 'has a post_status field' do
     @post.post_status = true
